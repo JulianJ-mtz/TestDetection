@@ -51,7 +51,7 @@ def draw_landmarks_manually(image, landmarks, connections):
         
         cv2.line(image, (start_x, start_y), (end_x, end_y), (0, 255, 0), 2)
 
-def print_result(result: PoseLandmarkerResult, output_image: mp.Image, timestamp_ms: int):
+def print_result(result: PoseLandmarkerResult, output_image: mp.Image, timestamp_ms: int): # type: ignore
     global latest_frame, processing
     try:
         frame = output_image.numpy_view()
