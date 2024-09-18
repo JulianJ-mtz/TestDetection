@@ -1,0 +1,57 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos de distribución / empaquetado
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Archivos de PyInstaller
+*.manifest
+*.spec
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Archivos de cobertura de pruebas
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
