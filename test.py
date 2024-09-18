@@ -8,7 +8,7 @@ import csv
 
 
 # modelo    
-model_path = "Models/pose_landmarker_heavy.task"
+model_path = "Models/pose_landmarker_full.task"
 
 # importaciones de mediapipe    
 BaseOptions = mp.tasks.BaseOptions

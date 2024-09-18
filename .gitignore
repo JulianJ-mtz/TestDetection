@@ -4,6 +4,10 @@ env/
 .venv/
 .env/
 
+
+# csv
+pose_landmarks.csv
+
 # Archivos de Python
 __pycache__/
 *.py[cod]
